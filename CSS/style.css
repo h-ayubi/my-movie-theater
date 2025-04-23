@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    background: radial-gradient(circle at top, #1C0036 0%, #0F001A 80%);
+    font-family: "Winky Rough", sans-serif;
+}
+div {
+    background-color: #6E0E85;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 10px;
+    margin: 30px auto;
+    width: 55%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #8710c7; 
+    transition: all 0.4s ease;
+
+}
+div:hover {
+    box-shadow: 0 0 40px rgb(160, 49, 194);
+    transform: scale(1.03);
+    
+}
+section.screen {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.video-frame {
+    width: 65%;
+    max-width: 1000px;
+    background-color: #1C0036;
+    padding: 10px;
+    border: 5px solid #810799;
+    border-radius: 40px;
+    box-shadow: 0 0 50px #8710c7;
+    transition: all 0.5s ease;
+}
+.video-frame:hover {
+    transform: scale(1.03);
+  box-shadow: 0 0 80px rgb(179, 30, 224);
+  cursor: pointer;
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+  }
+  .controls {
+    display: flex;             
+    justify-content: center;     
+    align-items: center;         
+    gap: 70px;
+    margin-top: 30px;
+  }
+  
+  button {
+    background-color: #6E0E85;
+    color: #E0E0E0;
+    font-family:  "Winky Rough", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a325e7;
+  }
+  .foorer {
+    color:#E0E0E0 ;
+    font-family: sans-serif;
+  }
+
